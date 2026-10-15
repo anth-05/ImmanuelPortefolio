@@ -12,13 +12,14 @@ Statische website: HTML, CSS en JavaScript, zonder build-stap of database.
 
 ## Na het koppelen van een domein
 
-Vul in `index.html` het volledige adres in bij de deelafbeelding, zodat WhatsApp en LinkedIn een voorbeeld tonen:
+Alle SEO-adressen (canonical, Open Graph, structured data, sitemap) staan nu op `https://anth-05.github.io/ImmanuelPortefolio/`. Koppel je een eigen domein, vervang dat adres dan overal door het nieuwe, in deze bestanden:
 
-```html
-<link rel="canonical" href="https://JOUWDOMEIN.nl/">
-<meta property="og:url" content="https://JOUWDOMEIN.nl/">
-<meta property="og:image" content="https://JOUWDOMEIN.nl/assets/img/og-image.jpg">
-```
+- `index.html`
+- `404.html`
+- `sitemap.xml`
+- `robots.txt`
+
+Meld daarna de sitemap aan in [Google Search Console](https://search.google.com/search-console) en Bing Webmaster Tools.
 
 ## Teksten aanpassen
 
@@ -33,7 +34,9 @@ index.html            de website
 404.html              pagina voor een verkeerde link
 favicon.svg           icoon in het tabblad
 apple-touch-icon.png  icoon op het beginscherm van een iPhone
-robots.txt            toestemming voor zoekmachines
+robots.txt            toestemming voor zoekmachines + verwijzing naar sitemap
+sitemap.xml           lijst van pagina's voor zoekmachines
+site.webmanifest      naam en iconen voor browsers
 assets/css/style.css  opmaak
 assets/js/main.js     menu, tijdlijn, kopieerknoppen
 assets/fonts/         lettertypes (Archivo, DM Mono), zelf gehost

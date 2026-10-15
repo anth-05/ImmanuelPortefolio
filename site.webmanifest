@@ -1,0 +1,14 @@
+{
+  "name": "Immanuel Akomoeje",
+  "short_name": "Immanuel",
+  "description": "Kapper, zorgprofessional en ondernemer uit Lelystad.",
+  "lang": "nl",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#EDEDED",
+  "theme_color": "#EDEDED",
+  "icons": [
+    {"src": "favicon.svg", "sizes": "any", "type": "image/svg+xml"},
+    {"src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png"}
+  ]
+}
