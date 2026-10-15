@@ -248,6 +248,7 @@ ul[role="list"],ol[role="list"]{list-style:none;padding:0}
   .to-top[hidden]{opacity:0;transform:translateY(12px) scale(.85);pointer-events:none;visibility:hidden;transition:opacity .15s ease-in,transform .18s ease-in,visibility 0s linear .18s}
   .to-top:active{transform:scale(.92);transition-duration:.1s}
   .to-top svg{width:22px;height:22px}
+  .foot{padding-bottom:calc(80px + env(safe-area-inset-bottom,0px))} /* clear the floating button */
 }
 
 /* ---------- motion: hero entrance + scroll reveals ---------- */
